@@ -6,7 +6,7 @@ const Links = () => {
       <nav>
         <p>
           <Link className="link" to="/">
-            Home Page
+            Home
           </Link>
         </p>
         <p>
@@ -22,11 +22,6 @@ const Links = () => {
         <p>
           <Link to="/productwatchlist" className="link">
             Product Watchlist
-          </Link>
-        </p>
-        <p>
-          <Link to="/consolelogs" className="link">
-            Console Logs page
           </Link>
         </p>
       </nav>

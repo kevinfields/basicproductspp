@@ -4,7 +4,6 @@ import NewProduct from "./pages/NewProduct";
 import ProductWatch from "./pages/ProductWatch";
 import HomePage from "./pages/HomePage";
 import Links from "./components/Links";
-import ConsoleLogs from "./pages/ConsoleLogs";
 
 function App() {
   return (
@@ -14,7 +13,6 @@ function App() {
         <Route path="/allproducts" element={<AllProducts />} />
         <Route path="/newproduct" element={<NewProduct />} />
         <Route path="/productwatchlist" element={<ProductWatch />} />
-        <Route path="/consolelogs" element={<ConsoleLogs />} />
       </Routes>
       <Links />
     </>
